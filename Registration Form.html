@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title style="color:aqua">REGISTER HERE</title>
+        <link rel="stylesheet" href="design.css">
+    </head>
+    <body>
+        <h1 style="color:orange">Register Form</h1>
+        <hr>
+        <form>
+            <label style="color:green"> First Name : <input type="text" name="FirstName" placeholder="FirstName" required></label>
+
+            <hr>
+
+            <label style="color:green">Last Name : <input type="text" name="LastName" placeholder="LastName" required></label>
+
+            <hr>
+
+            <label style="color:green">Gender : </label>
+            <label style="color:green">Male <input type="radio" name="gender" value="male"></label>
+            <label style="color:green">Female <input type="radio" name="gender" value="female"></label>
+            <label style="color:green">Other <input type="radio" name="gender" value="Other"></label>
+
+            <hr>
+
+            <label style="color:green">Email : <input type="email" name="email" placeholder="your mail" required></label>
+            <hr>
+            <label style="color:green">Password : <input type="password" name="password" placeholder="your password" pattern=".{5,10}" required title="Please Enter password of length 5 to 10"></label>
+            <hr>
+            <label style="color:blue">Phone No. : <input placeholder="Phone No."></label>
+            <hr>
+            <label style="color:green">Registration No. : <input placeholder="Registration No."></label>
+            <hr>
+            <label style="color:blue">BirthDay :</label>
+            <select id="birthday" name="month">
+                <option>Month</option><option>Jan</option><option>Feb</option><option>Mar</option><option>Apr</option><option>May</option><option>Jun</option><option>Jul</option>
+                <option>Aug</option><option>Sep</option><option>Oct</option><option>Nov</option><option>Dec</option>
+            </select>
+            <select id="birthday" name="day">
+                <option>Day</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option>
+                <option>9</option><option>10</option><option>11</option><option>12</option><option>14</option><option>15</option><option>16</option><option>17</option>
+                <option>18</option><option>19</option><option>20</option><option>21</option><option>22</option><option>23</option><option>24</option><option>25</option>
+                <option>26</option><option>27</option><option>28</option><option>29</option><option>30</option><option>31</option>
+            </select>
+            <select id="birthday" name="year">
+                <option>year</option><option>2003</option><option>2002</option><option>2001</option><option>2000</option><option>1999</option><option>1998</option>
+                <option>1997</option><option>1996</option><option>1995</option><option>1994</option><option>1993</option><option>1992</option><option>1991</option>
+                <option>1990</option><option>1989</option><option>1988</option><option>1987</option><option>1986</option><option>1985</option><option>1984</option>
+                <option>1983</option><option>1982</option><option>1981</option><option>1980</option>
+            </select>
+            <hr>
+            <label style="color:red">I Agree To The Terms & Conditions <input type="checkbox" name="check"></label>
+            <hr>
+            <input type="submit" name="submit">
+        </form>
+    </body>
+</html>

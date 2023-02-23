@@ -1,0 +1,12 @@
+h1
+{
+    color: chartreuse;
+}
+thead{
+    background-color: crimson;
+    color: yellow;
+}
+tbody{
+       background-color: deeppink;
+       color: whitesmoke;
+}
